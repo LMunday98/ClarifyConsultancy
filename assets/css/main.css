@@ -43,6 +43,15 @@ section, summary, time, mark, audio, video {
 				font-size: 1.25em;
 			}
 
+      #header img {
+  			position: absolute;
+  			left: 1em;
+  			top: 0;
+  			height: 3em;
+  			line-height: 3em;
+  			cursor: default;
+  		}
+
 		#header nav {
 			position: absolute;
 			right: 0.5em;
