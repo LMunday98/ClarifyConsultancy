@@ -32,7 +32,7 @@ section, summary, time, mark, audio, video {
 
 		#header h1 {
 			position: absolute;
-			left: 1em;
+			left: 4em;
 			top: 0;
 			height: 3em;
 			line-height: 3em;
@@ -170,15 +170,3 @@ section, summary, time, mark, audio, video {
 			#navbar a.active {
 				background: #484848;
 			}
-
-				#navbar a.active:before {
-					content: '';
-					display: block;
-					position: absolute;
-					bottom: -0.6em;
-					left: 50%;
-					margin-left: -0.75em;
-					border-left: solid 0.75em transparent;
-					border-right: solid 0.75em transparent;
-					border-top: solid 0.6em #282828;
-				}
