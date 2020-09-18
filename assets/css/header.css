@@ -19,7 +19,7 @@ section, summary, time, mark, audio, video {
 /* Header */
 
 	#header {
-		position: fixed;
+		position: relative;
 		z-index: 10000;
 		left: 0;
 		top: 0;
@@ -27,7 +27,8 @@ section, summary, time, mark, audio, video {
 		background: rgba(255, 255, 255, 0.95);
 		height: 3em;
 		line-height: 3em;
-		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    padding-bottom: 1em;
 	}
 
 		#header h1 {
@@ -73,7 +74,7 @@ section, summary, time, mark, audio, video {
 				#header nav ul li {
 					display: inline-block;
 					margin-left: 0.5em;
-					font-size: 0.9em;
+					font-size: 1em;
           color: #0b4ea0;
 				}
 
@@ -114,7 +115,9 @@ section, summary, time, mark, audio, video {
 		}
 
 	body {
+    /*
 		padding-top: 3em;
+    */
 	}
 
 		@media screen and (max-width: 736px) {
